@@ -1,0 +1,122 @@
+/* Body */
+body {
+  margin: 0;
+  background-color: #f5f5f5; /* dark background like experience page */
+  color: #fff; /* default text color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Navbar */
+.navbar-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #222;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.navbar-project .logo-project {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-project ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navbar-project ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-project ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Main Content */
+.main-content-projects {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.projects-container {
+  width: 80%;
+  max-width: 900px;
+  background: #f9f9f9; /* light card-style like experience-container */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.projects-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333; /* dark text like experience-section h1 */
+  border-bottom: 2px solid #00bcd4;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Project Cards */
+.project-card {
+  background: #fff; /* light card like experience-card */
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.project-card h2 {
+  color: #222; /* dark title */
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.project-card h3 {
+  color: #666; /* subtitle color */
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  color: #444; /* content color */
+  line-height: 1.6;
+}
+.project-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.project-link:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
